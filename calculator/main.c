@@ -4,10 +4,8 @@ void main(){
     float a,b;
     char operation;
     float result;
-    printf("For stop calculator press -1");
+    printf("This Calculator have add,sub,mult,div and percent funtion for two number only\n write the expression like this: 11+22 or 33*44\n For stop calculator press -1:  ");
     scanf("%f %c %f",&a,&operation,&b);
-    // scanf("%c",&operation);
-    // scanf("%f",&b);
     while(1){
 
        
@@ -41,8 +39,7 @@ void main(){
         else
         {
         a= result;
-        scanf("%c %f",&operation,&b);
-        //scanf("%f",&b);    
+        scanf("%c %f",&operation,&b); 
         }
         
 
